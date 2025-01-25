@@ -1,0 +1,19 @@
+{
+  "name": "mysql-backuper",
+  "version": "1.0.0",
+  "description": "Simple System thats create a MySql dump and saves it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@Knax",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "mysqldump": "^3.2.0",
+    "node-schedule": "^2.1.1",
+    "path": "^0.12.7"
+  }
+}
